@@ -2,8 +2,8 @@
 def f(сс, numb):
     res = ''
     while numb > 0:
-        a = numb % cc
-        res += str(a)
+        ost = numb % cc
+        res += str(ost)
         numb //= cc
     return res[::-1]
 
